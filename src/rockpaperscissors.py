@@ -36,12 +36,12 @@ class RockPaperScissorsGUI():
 
         tk.Button(master=self.master,
                   text='Exit',
-                  command=self.exit).place(x=210,
+                  command=self.exit).place(x=205,
                                            y=270)
 
         tk.Button(master=self.master,
                   text='Reset',
-                  command=self.reset).place(x=170,
+                  command=self.reset).place(x=155,
                                             y=270)
 
         tk.Entry(master=self.master,
